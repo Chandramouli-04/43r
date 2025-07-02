@@ -1,0 +1,25 @@
+.container{
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: 1fr 700px ;
+
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: blue;
+}
+.lside{
+      background-color: aqua;
+}
+.main{
+     background-color:lightgreen;
+}
+.rside{
+    background-color:blueviolet;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: lightcoral;
+}
